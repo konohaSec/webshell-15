@@ -1,0 +1,74 @@
+
+
+body {
+  font-family: "微软雅黑";
+  background-color: black;
+  color:white;
+}
+
+.login{
+	border:solid 1px white;
+	border-radius: 5px;
+	width:250px;
+	height:180px;
+	padding:5px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -125px;
+	margin-top: -150px;
+}
+
+.login button{
+	border:solid 1px white;
+	border-radius: 3px;
+	background-color: black;
+	color: white;
+	height: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.login div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.login .logindiv{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.login div input{
+	border:solid 1px white;
+	width:150px;
+	height: 25px;
+	padding-left: 3px;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.login div span.item-name{
+	display: inline-block;
+	width:80px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.login div  button{
+	font-family: "微软雅黑";
+}
+
+
+#info-dialog{
+	position: fixed;
+	width:200px;
+	height: 100px;
+	border: solid 1px white;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 5px;
+	padding:10px;
+	text-indent: 2em;
+}
